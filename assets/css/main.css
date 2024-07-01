@@ -803,6 +803,10 @@ body {
   max-width: 60rem;
 }
 
+#footer_mod {
+  padding-top: 20px;
+}
+
 .footer__subtitle,
 .footer__title,
 .footer__description {
@@ -843,7 +847,7 @@ body {
   margin-top: 5rem;
 }
 
-/* Scrolltop
+/* Scrolltop / Bottom
 -------------------------------------------------------------*/
 .scrolltop {
   position: fixed;

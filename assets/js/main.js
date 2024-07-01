@@ -74,6 +74,15 @@ function showScrollTop() {
 
 window.addEventListener("scroll", showScrollTop);
 
+// ScrollBottom------------------------------------
+document
+  .getElementById("scrollToBottomBtn")
+  .addEventListener("click", function () {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    });
+  });
 /* 
 Testimonial Swiper
 ----------------------------------------------*/
