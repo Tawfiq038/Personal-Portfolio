@@ -595,7 +595,7 @@ body {
 .portfolio__project {
   position: relative;
   width: 100%;
-  max-width: 35rem;
+  /* max-width: 35rem; */
   justify-self: center;
   border-radius: var(--b-radius);
   overflow: hidden;
@@ -614,6 +614,7 @@ body {
   margin: auto;
   padding: 2rem;
   display: flex;
+  gap: 13px;
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-white);
